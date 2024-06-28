@@ -4,7 +4,7 @@
 
 #### Short recap
 
-1. [ ] Programming exercise: Cubes
+1. [x] Programming exercise: Cubes
 2. [ ] Programming exercise: Average of positive numbers
 3. [ ] Programming exercise: Liquid containers (3 parts)
 4. [ ] Programming exercise: Liquid Containers 2.0 (2 parts)
