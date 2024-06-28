@@ -23,18 +23,26 @@ public class LiquidContainers {
             String command = parts[0];
             Integer number = Integer.parseInt(parts[1]);
 
+            if (number <= 0) {
+                continue;
+            }
+
             switch (command) {
                 case "add":
-                    if (number < 0) {
-                        break;
-                    }
                     first += number;
-                    if (first > MAX) {
-                        first = MAX;
+                    if (first > 100) {
+                        first = 100;
                     }
                     break;
                 case "move":
-                    // todo
+                    if (number > first) {
+                        number = first;
+                    }
+                    second += number;
+                    first -= number;
+                    if (second > MAX) {
+                        second = MAX;
+                    }
                     break;
                 case "remove":
                     // todo
