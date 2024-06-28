@@ -30,8 +30,8 @@ public class LiquidContainers {
             switch (command) {
                 case "add":
                     first += number;
-                    if (first > 100) {
-                        first = 100;
+                    if (first > MAX) {
+                        first = MAX;
                     }
                     break;
                 case "move":
@@ -45,7 +45,10 @@ public class LiquidContainers {
                     }
                     break;
                 case "remove":
-                    // todo
+                    if (number > second) {
+                        number = second;
+                    }
+                    second -= number;
                     break;
                 default:
                     break;
