@@ -7,7 +7,7 @@
 1. [x] Programming exercise: Cubes
 2. [x] Programming exercise: Average of positive numbers
 3. [x] Programming exercise: Liquid containers (3 parts)
-4. [ ] Programming exercise: Liquid Containers 2.0 (2 parts)
+4. [x] Programming exercise: Liquid Containers 2.0 (2 parts)
 5. [ ] Programming exercise: To do list (2 parts)
 
 #### Hash Map
