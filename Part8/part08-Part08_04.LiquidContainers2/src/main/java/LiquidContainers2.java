@@ -4,20 +4,41 @@ public class LiquidContainers2 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        Container first = new Container();
+        Container second = new Container();
 
-        // Testing
-        Container container = new Container();
-        System.out.println(container);
+        while (true) {
+            System.out.println(String.format("First: %s", first));
+            System.out.println(String.format("Second: %s", second));
+            System.out.print(">");
 
-        container.add(50);
-        System.out.println(container);
-        System.out.println(container.contains());
+            String input = scan.nextLine();
+            if (input.equals("quit")) {
+                scan.close();
+                break;
+            }
 
-        container.remove(60);
-        System.out.println(container);
+            String[] parts = input.split(" ");
+            String command = parts[0];
+            Integer amount = Integer.parseInt(parts[1]);
 
-        container.add(200);
-        System.out.println(container);
+            switch (command) {
+                case "add":
+                    first.add(amount);
+                    break;
+                case "move":
+                    if (amount > first.contains()) {
+                        amount = first.contains();
+                    }
+                    first.remove(amount);
+                    second.add(amount);
+                    break;
+                case "remove":
+                    second.remove(amount);
+                default:
+                    break;
+            }
+        }
     }
 
 }
