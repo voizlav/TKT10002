@@ -12,7 +12,7 @@
 
 #### Hash Map
 
-1. [ ] Quiz
+1. [x] Quiz
 2. [ ] Programming exercise: Nicknames
 3. [ ] Quiz
 4. [ ] Programming exercise: Abbreviations
