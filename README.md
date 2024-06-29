@@ -17,7 +17,7 @@
 3. [x] Quiz
 4. [x] Programming exercise: Abbreviations
 5. [x] Programming exercise: Print me my hash map
-6. [ ] Programming exercise: Print me another hash map
+6. [x] Programming exercise: Print me another hash map
 7. [ ] Programming exercise: I owe you
 
 #### Similarity of objects
