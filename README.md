@@ -15,7 +15,7 @@
 1. [x] Quiz
 2. [x] Programming exercise: Nicknames
 3. [x] Quiz
-4. [ ] Programming exercise: Abbreviations
+4. [x] Programming exercise: Abbreviations
 5. [ ] Programming exercise: Print me my hash map
 6. [ ] Programming exercise: Print me another hash map
 7. [ ] Programming exercise: I owe you
