@@ -13,6 +13,9 @@ public class Main {
         vr.add(li3, "Matti");
         vr.add(li3, "Matti2");
 
-        System.out.println(vr.get(new LicensePlate("D", "B WQ-431")));
+        vr.remove(new LicensePlate("D", "B WQ-431"));
+
+        vr.printLicensePlates();
+        vr.printOwners();
     }
 }
