@@ -26,7 +26,7 @@
 2. [x] Quiz
 3. [x] Programming exercise: Same date
 4. [x] Programming exercise: Hash for date
-5. [ ] Programming exercise: Vehicle Registry (3 parts)
+5. [x] Programming exercise: Vehicle Registry (3 parts)
 
 #### Grouping data using hash maps
 
