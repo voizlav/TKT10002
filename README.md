@@ -31,7 +31,7 @@
 #### Grouping data using hash maps
 
 1. [x] Programming exercise: Dictionary of many translations
-2. [ ] Programming exercise: Storage facility (2 parts)
+2. [x] Programming exercise: Storage facility (2 parts)
 
 #### Fast data fetching and grouping information
 
