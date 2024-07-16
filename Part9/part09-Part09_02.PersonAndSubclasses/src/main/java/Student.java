@@ -13,4 +13,9 @@ public class Student extends Person {
     public int credits() {
         return this.count;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s\n  Study credits %s", super.toString(), this.count);
+    }
 }
