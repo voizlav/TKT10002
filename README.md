@@ -36,3 +36,34 @@
 #### Fast data fetching and grouping information
 
 1. [ ] Quiz
+
+## Part 9
+
+#### Class inheritance
+
+1. [ ] Programming exercise: ABC (2 parts)
+2. [ ] Programming exercise: Person and subclasses (5 parts)
+3. [ ] Quiz
+4. [ ] Quiz
+5. [ ] Quiz
+6. [ ] Programming exercise: Warehousing (7 parts)
+7. [ ] Programming exercise: DifferentKindsOfBoxes (3 parts)
+
+#### Interfaces
+
+1. [ ] Programming exercise: TacoBoxes (2 parts)
+2. [ ] Programming exercise: Interface In A Box (4 parts)
+3. [ ] Quiz
+4. [ ] Programming exercise: List as a method parameter
+5. [ ] Programming exercise: Map as a method parameter
+6. [ ] Programming exercise: Set as method parameter
+7. [ ] Programming exercise: Online shop (8 parts)
+
+#### Object polymorphism
+
+1. [ ] Programming exercise: Herds (2 points)
+2. [ ] Programming exercise: Animals (4 parts)
+
+#### Summary
+
+1. [ ] Quiz
