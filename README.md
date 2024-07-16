@@ -41,7 +41,7 @@
 
 #### Class inheritance
 
-1. [ ] Programming exercise: ABC (2 parts)
+1. [x] Programming exercise: ABC (2 parts)
 2. [ ] Programming exercise: Person and subclasses (5 parts)
 3. [ ] Quiz
 4. [ ] Quiz
